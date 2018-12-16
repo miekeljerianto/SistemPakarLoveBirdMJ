@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">SP Burung Lovebird</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_share">Shared</string>
+    <string name="title_activity_diagnosa">Diagnosa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id_rules">ID Rules</string>
+
+
+    <string name="info">Burung cinta adalah satu burung dari sembilan jenis spesies genus Agapornis (dari bahasa Yunani AGAPE yang berarti CINTA dan ORNIS yang berarti BURUNG). Mereka adalah burung yang berukuran kecil, antara 13 sampai 17 cm dengan berat 40 hingga 60 gram, dan bersifat sosial. Delapan dari spesies ini berasal dari Afrika, sementara spesies BURUNG CINTA KEPALA ABU_ABU berasal dari Madagaskar. Nama mereka berasal dari kelakuan yang umum diamati bahwa sepasang burung cinta akan duduk berdekatan dan saling menyayangi satu sama lain. Sifat pasangan burung cinta adalah monogami di alam bebas. Umur hidup rata-rata mereka adalah 10 sampai 15 tahun.</string>
+
+    <string name="footer">Copyright©2018 | MiekelJerianto @INF-UNTAN</string>
+
+
+    <string name="skip">LEWATI</string>
+    <string name="next">LANJUT</string>
+    <string name="sd">Selamat Datang</string>
+    <string name="pam">Pontianak Android Makers</string>
+
+    <string name="start">OKE!</string>
+
+    <!--welcome activity -->
+    <string name="slide_1_title">Diagnosa Penyakit</string>
+    <string name="slide_1_desc">Kalian dapat mendiagnosa penyakit pada Burung Lovebird melalui aplikasi ini.
+    Dimana kalian akan disuguhkan dengan pertanyaan terkait dengan gejala yang dialami oleh Burung anda.</string>
+
+    <string name="slide_2_title">Daftar Gejala</string>
+    <string name="slide_2_desc">Aplikasi ini juga dilengkapi dengan Daftar Gejala Penyakit yang dialami oleh Burung anda.
+    Jadi jangan kahwatir jika anda kebinggungan dengan contoh-contoh gejala yang dialami oleh Burung Lovebird</string>
+
+
+    <string name="slide_3_title">Daftar Penyakit</string>
+    <string name="slide_3_desc">Selain itu juga pada Aplikasi ini terdapat Daftar Penyakit yang dialami oleh Burung Lovebird, jadi selain
+        Daftar Gejala kami juga menyematkan Daftar Penyakit yang dialami oleh Burung Lovebird.</string>
+
+    <string name="slide_4_title">Informasi Burung Lovebird</string>
+    <string name="slide_4_desc">Bagi anda yang baru ingin mengenal Burung Lovebird lebih dalam, di Aplikasi ini
+    juga terdapat berbagi macam informasi yang anda akan temukan terkait dengan Burung Lovebird.</string>
+
+
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="dont_have_account">Dont have Account.</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="register">REGISTER</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="title_activity_main_app">MainApp</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Signout</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>

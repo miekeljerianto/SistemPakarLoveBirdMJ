@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#76A602</color>
+    <color name="colorPrimaryDark">#468500</color>
+    <color name="colorAccent">#F1D801</color>
+
+    <color name="colorOrange">#FF710B</color>
+    <color name="colorOrangeamber">#76A602</color>
+    <color name="bg_text">#444444</color>
+    <color name="toolbar">#F1D801</color>
+    <color name="bototom_">#FF710B</color>
+
+    <color name="hasil_solusi">#76A602</color>
+    <color name="penyebab">#E42713</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#76A602</color>
+    <color name="bg_screen2">#76A602</color>
+    <color name="bg_screen3">#76A602</color>
+    <color name="bg_screen4">#76A602</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#ffffff</color>
+    <color name="dot_dark_screen2">#ffffff</color>
+    <color name="dot_dark_screen3">#ffffff</color>
+    <color name="dot_dark_screen4">#ffffff</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#4b4b4b</color>
+    <color name="dot_light_screen2">#4b4b4b</color>
+    <color name="dot_light_screen3">#4b4b4b</color>
+    <color name="dot_light_screen4">#4b4b4b</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+</resources>

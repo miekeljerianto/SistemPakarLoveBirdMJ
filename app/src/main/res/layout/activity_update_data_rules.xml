@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.apps.miekeljerianto.belajarpakar.ui_admin.UpdateData">
+<LinearLayout
+    android:id="@+id/liner1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:textSize="21sp"
+        android:text="@string/id_rules"/>
+        <EditText
+            android:id="@+id/edt_rules_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:textSize="21sp"
+        android:text="Nama Gejala"/>
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edt_rules_nmgejala"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner1"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:textSize="21sp"
+        android:text="Ya"/>
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ya"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:hint="G001"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="Tidak"
+            android:textSize="21sp" />
+            <EditText
+                android:id="@+id/tdk"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:hint="G010"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_update2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:gravity="center">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:textSize="21dp"
+            android:text="Mulai"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/rules_mulai"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="Y"/>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:textSize="21dp"
+            android:text="Selesai"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/selesai_rules"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="T"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_update2"
+        android:gravity="center"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:onClick="onClickAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="Insert"/>
+
+            <Button
+            android:onClick="onClickUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="Update"/>
+
+        <Button
+            android:onClick="onClickReset"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="Reset"/>
+
+    </LinearLayout>
+</RelativeLayout>

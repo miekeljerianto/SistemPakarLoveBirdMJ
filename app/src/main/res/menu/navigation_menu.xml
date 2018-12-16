@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_ui_1"
+        android:title="Daftar Gejala"
+        android:icon="@drawable/ic_list2"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/bottom_ui_2"
+        android:title="Daftar Penyakit"
+        android:icon="@drawable/ic_list"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/bottom_ui_3"
+        android:title="Rules"
+        android:icon="@drawable/ic_user"
+        android:enabled="true" />
+
+</menu>

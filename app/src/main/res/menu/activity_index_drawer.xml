@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_diagnosa"
+        android:icon="@drawable/ic_diagnosa"
+        android:title="Diagnosa Penyakit" />
+
+    <item
+        android:id="@+id/nav_list_penyakit"
+        android:icon="@drawable/ic_list"
+        android:title="Daftar Gejala" />
+
+    <item
+        android:id="@+id/nav_list_gejala"
+        android:icon="@drawable/ic_penyakit"
+        android:title="Daftar Penyakit" />
+
+    <item
+        android:id="@+id/nav_info_lb"
+        android:icon="@drawable/ic_info"
+        android:title="Info Bururng Lovebird" />
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/ic_tentang"
+        android:title="Tentang Saya"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:title="Bagikan"/>
+
+    <item
+        android:id="@+id/nav_exit"
+        android:icon="@drawable/ic_exit"
+        android:title="Keluar" />
+
+
+
+
+
+</menu>

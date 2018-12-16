@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.miekeljerianto.belajarpakar.ui_admin.TambahData">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tampil_data1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Gejala"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edit_text_tambah1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tampil_data1"/>
+
+        <TextView
+            android:id="@+id/tampil_data2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Gejala"
+            android:layout_below="@+id/edit_text_tambah1"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edit_text_tambah2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tampil_data2"/>
+
+        <TextView
+            android:id="@+id/tampil_data3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_text_tambah2"
+            android:text="Ciri-Ciri"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edit_text_tambah3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tampil_data3"/>
+
+        <TextView
+            android:id="@+id/tampil_data4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_text_tambah3"
+            android:text="Solusi"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edit_text_tambah4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tampil_data4"/>
+
+        <TextView
+            android:id="@+id/tampil_ya"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Rule Ya"
+            android:layout_below="@id/edit_text_tambah4"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edit_text_ya"
+                android:layout_width="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tampil_ya"/>
+
+        <TextView
+            android:id="@+id/tampil_tdk"
+            android:layout_width="70dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="19dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_text_tambah4"
+            android:text="Rule Tidak"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edit_text_tdk"
+                android:layout_width="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tampil_ya"
+                android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/mulai"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Jika Ya =  MULAI"
+            android:gravity="center"
+            android:textSize="19dp"
+            android:layout_below="@id/edit_text_ya"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edit_text_tambah_mulai"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mulai"/>
+
+        <TextView
+            android:id="@+id/text_selesai"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="19dp"
+            android:text="Selesai"
+            android:layout_below="@+id/edit_text_tdk"
+            />
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edit_text_selesai"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/text_selesai"/>
+
+
+
+        <Button
+            android:id="@+id/btn_simpan_data_penyakit"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:hint="Tambah Penyakit"
+            android:layout_below="@+id/tampil_ya"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/btn_data_gejala"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/btn_simpan_data_penyakit"
+            android:hint="Tambah Gejala"/>
+    </RelativeLayout>
+
+</ScrollView>

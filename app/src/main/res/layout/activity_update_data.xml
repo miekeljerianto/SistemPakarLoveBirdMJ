@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.apps.miekeljerianto.belajarpakar.ui_admin.UpdateData">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edit_text_tampil1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/ic_rounded"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edit_text_tampil2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/ic_rounded"
+        android:layout_below="@+id/edit_text_tampil1"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edit_text_tampil3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@id/edit_text_tampil2"
+        android:background="@drawable/ic_bg_penyebab"
+        android:layout_marginTop="10dp"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edit_text_tampil4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/edit_text_tampil3"
+        android:background="@drawable/ic_bg_solusi"
+        />
+
+
+    <Button
+        android:id="@+id/btn_update_penyakit"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:hint="Update Data"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edit_text_tampil4"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:hint="RESET"
+        android:onClick="onClickReset_"
+        android:layout_below="@+id/edit_text_tampil4"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.miekeljerianto.belajarpakar.ui_admin.UiDashboardAdmin">
+
+    <RelativeLayout
+        android:id="@+id/relative_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    <android.support.v7.widget.Toolbar
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/toolbar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="26sp"
+            android:text="Dashboard Admin"/>
+    </android.support.v7.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/ui_admin_profile"
+            android:layout_width="80dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_user"
+            android:layout_marginRight="880dp"
+            android:layout_alignTop="@+id/img_keluar"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp" />
+
+        <ImageView
+            android:id="@+id/img_keluar"
+            android:layout_width="70dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_exit"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="880dp"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/framelayout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative_toolbar"
+        android:layout_above="@+id/bottom_dashboard"></FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/ic_rounded"
+        app:itemIconTint="@color/bototom_"
+        app:menu="@menu/navigation_menu"></android.support.design.widget.BottomNavigationView>
+</RelativeLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.miekeljerianto.belajarpakar.form.FormDiagnosa">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pilihgejala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="Mendiagnosa Gejala"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/gejalapilihan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:visibility="invisible"
+            android:layout_below="@+id/DiagnosaPertanyaan"
+            android:text="gejalaplhn"/>
+
+        <TextView
+            android:id="@+id/DiagnosaPertanyaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:layout_below="@+id/pilihgejala"
+            android:text=""/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/radiogroup"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YA"
+                android:textSize="20dp"
+                android:layout_marginRight="50dp"
+                android:id="@+id/ya"
+                android:layout_gravity="center_vertical"
+                android:buttonTint="@color/colorOrange"
+                android:foregroundTint="@color/colorOrangeamber"/>
+
+            <RadioButton
+                android:id="@+id/tidak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ya"
+                android:text="TIDAK"
+                android:textSize="20dp"
+                android:buttonTint="@color/colorOrange"
+                android:foregroundTint="@color/colorOrangeamber"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="440dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LANJUT"
+            android:textSize="20dp"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:id="@+id/lanjut"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="*Note : Pilih YA atau TIDAK untuk melakukan diagnosa terhadap penyakit, kemudian tekan tombol LANJUT diatas ini."
+            android:textSize="15dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/footer"
+        android:textAlignment="center"
+        android:textSize="12dp"/>
+
+</RelativeLayout>
+

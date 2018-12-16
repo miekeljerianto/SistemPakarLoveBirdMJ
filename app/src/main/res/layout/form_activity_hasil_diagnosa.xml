@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.miekeljerianto.belajarpakar.form.FormHasilDiagnosa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Hasil Diagnosa"/>
+
+            <!--tampil hasil gejala-->
+            <TextView
+                android:id="@+id/HasilListGejala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/tv1"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/HasilListGejala"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Hasil Penyakit"/>
+
+            <!--tampil hasil penyakit-->
+            <TextView
+                android:id="@+id/HasilPenyakit"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv2"
+                android:paddingBottom="10dp"/>
+
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/penyebab"
+                android:layout_below="@+id/HasilPenyakit"
+                android:text="Penyebab"/>
+
+
+            <!--tampil penyebab-->
+            <TextView
+                android:id="@+id/HasilPenyebab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:layout_below="@+id/tv3"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/colorAccent"
+                android:layout_below="@+id/HasilPenyebab"
+                android:text="Solusi"/>
+
+            <!--hasil penyakit-->
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/HasilSolusi"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_below="@id/tv4"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/footer"
+        android:textAlignment="center"
+        android:textSize="12dp"/>
+
+</RelativeLayout>
